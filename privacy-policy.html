@@ -64,15 +64,46 @@
             background: #7C3AED;
             color: #F8FAFC;
         }
+        a.email-link {
+            color: #A78BFA;
+            font-weight: bold;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+        .lang-link a {
+            color:#F8FAFC;
+            background:#7C3AED;
+            padding:10px 28px;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:700;
+            font-size:1.1rem;
+            transition:background 0.2s, color 0.2s;
+            display:inline-block;
+        }
+        .lang-link a:hover {
+            background: #7C3AED;
+            color: #F8FAFC;
+        }
+        .date-policy {
+            color: #A78BFA;
+            margin-top: -12px;
+            margin-bottom: 32px;
+            font-size: 1.1rem;
+        }
+        .lang-link {
+            text-align: center;
+            margin-bottom: 32px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div style="text-align:center; margin-bottom:32px;">
-            <a href="privacy-policy-en.html" style="color:#A78BFA;background:#7C3AED;padding:10px 28px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:background 0.2s, color 0.2s;display:inline-block;">English version</a>
+        <div class="lang-link">
+            <a href="privacy-policy-en.html">English version</a>
         </div>
         <h1>Politique de Confidentialité</h1>
-        <p><strong>Date d'entrée en vigueur : 1er juin 2025</strong></p>
+        <p class="date-policy"><strong>Date d'entrée en vigueur : 1er juin 2025</strong></p>
 
         <h2>Introduction</h2>
         <p>Merci d'utiliser notre application AntKeeper ("l'Application"). Cette Politique de Confidentialité explique comment nous collectons, utilisons, divulguons et protégeons vos informations lorsque vous utilisez notre Application.</p>
@@ -136,7 +167,7 @@
 
         <h2>Contact</h2>
         <p>Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter à :</p>
-        <p><a href="mailto:dev@almana.cc">dev@almana.cc</a></p>
+        <p><a class="email-link" href="mailto:dev@almana.cc">dev@almana.cc</a></p>
 
         <h2>Consentement</h2>
         <p>En utilisant notre Application, vous consentez à notre Politique de Confidentialité.</p>

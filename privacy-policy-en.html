@@ -64,15 +64,46 @@
             background: #7C3AED;
             color: #F8FAFC;
         }
+        a.email-link {
+            color: #A78BFA;
+            font-weight: bold;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+        .date-policy {
+            color: #A78BFA;
+            margin-top: -12px;
+            margin-bottom: 32px;
+            font-size: 1.1rem;
+        }
+        .lang-link {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+        .lang-link a {
+            color:#F8FAFC;
+            background:#7C3AED;
+            padding:10px 28px;
+            border-radius:8px;
+            text-decoration:none;
+            font-weight:700;
+            font-size:1.1rem;
+            transition:background 0.2s, color 0.2s;
+            display:inline-block;
+        }
+        .lang-link a:hover {
+            background: #7C3AED;
+            color: #F8FAFC;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div style="text-align:center; margin-bottom:32px;">
-            <a href="privacy-policy.html" style="color:#A78BFA;background:#7C3AED;padding:10px 28px;border-radius:8px;text-decoration:none;font-weight:700;font-size:1.1rem;transition:background 0.2s, color 0.2s;display:inline-block;">Version française</a>
+        <div class="lang-link">
+            <a href="privacy-policy.html">Version française</a>
         </div>
         <h1>Privacy Policy</h1>
-        <p><strong>Effective Date: June 1st, 2025</strong></p>
+        <p class="date-policy"><strong>Effective Date: June 1st, 2025</strong></p>
 
         <h2>Introduction</h2>
         <p>Thank you for using our AntKeeper application ("the Application"). This Privacy Policy explains how we collect, use, disclose, and protect your information when you use our Application.</p>
@@ -136,7 +167,7 @@
 
         <h2>Contact</h2>
         <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-        <p><a href="mailto:dev@almana.cc">dev@almana.cc</a></p>
+        <p><a class="email-link" href="mailto:dev@almana.cc">dev@almana.cc</a></p>
 
         <h2>Consent</h2>
         <p>By using our Application, you consent to our Privacy Policy.</p>
